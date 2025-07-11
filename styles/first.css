@@ -124,3 +124,34 @@ body {
   max-width: 100%;
   height: auto;
 }
+
+.users {
+  background-color: #f4f6ff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.user-stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.user-stats div {
+  flex: 1;
+  min-width: 120px;
+}
+
+.user-stats h3 {
+  font-size: 32px;
+  color: #3D5CFF;
+}
+
+.user-stats p {
+  font-size: 14px;
+}
