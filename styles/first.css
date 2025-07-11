@@ -210,3 +210,47 @@ body {
   max-width: 100%;
   height: auto;
 }
+
+.contact {
+  background-color: #f4f6ff;
+  padding: 80px 20px;
+}
+
+.contact-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-left {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.contact-right {
+  flex: 1;
+}
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-right label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.contact-right input,
+.contact-right textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.contact-right textarea {
+  resize: vertical;
+  height: 100px;
+  margin-bottom: 20px;
+}
