@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo-text {
+  font-size: 24px;
+  color: #2b47cc;
+  margin-bottom: 10px;
+}
+
+
+body {
+
+  font-family: sans-serif;
+  line-height: 1.6;
+  color: #111;
+}
+
+/* Container */
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Button Style */
+.btn {
+  padding: 10px 20px;
+  background-color: #3D5CFF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #2b47cc;
+  transform: scale(1.05);
+}
+
+/* Hero Background Wrapper */
+.hero-wrapper {
+  background-image: url('Hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(24, 14, 14);
+}
+
+/* Navbar */
+.navbar {
+  padding: 20px 0;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+}
+
+
+.banner {
+  padding: 120px 20px 80px;
+  text-align: center;
+}
+
+.banner-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.banner {
+  background-image: url('hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  padding: 120px 20px;
+  text-align: center;
+  color: #111;
+}
+
+/* Action Section */
+.action {
+  padding: 60px 0;
+}
+
+.action-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.action-left {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.action-left h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.action-left p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.action-right {
+  flex: 1;
+  text-align: center;
+}
+
+.action-right img {
+  max-width: 100%;
+  height: auto;
+}
